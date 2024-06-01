@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "@heroicons/react": "2.1.3",
+    "@headlessui/react": "2.0.4",
+    "create-toolpad-app": "0.1.55"
+  }
+}

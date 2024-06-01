@@ -1,0 +1,40 @@
+.flex-container {
+  display: flex;
+  background-color: #1F2937;
+  height: 10vh; /* Adjust as needed */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Space between items */
+  padding: 20px; /* Add padding to the container */
+  position: relative; /* Needed for positioning the status message */
+  box-sizing: border-box; /* Include padding in height/width calculations */
+}
+
+.flex-item {
+  background-color: #ffffff; /* White background for contrast */
+  padding: 10px;
+  border-radius: 5px;
+  color: #1F2937; /* Text color */
+  font-size: 2rem;
+  height: 50px; /* Set the desired height */
+  width: 350px; /* Set the desired width */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: grey; /* Default color */
+}
+
+.status-message {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  color: #ffffff; /* Text color for contrast */
+  font-size: 1rem;
+  white-space: nowrap; /* Prevent the text from wrapping */
+}
